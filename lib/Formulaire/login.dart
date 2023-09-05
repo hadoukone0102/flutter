@@ -81,6 +81,25 @@ class _LoginState extends State<Login> {
                       onPressed: (){},
                     ),
                    ),
+
+                    SizedBox(height: 50,),
+            Container(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Container(
+                  margin: const EdgeInsets.all(5),
+                  width: 25,
+                  height: 21,
+                  decoration: BoxDecoration(
+                     color: Colors.white,
+                      borderRadius: BorderRadius.circular(15),
+                  ),
+                 
+                ),
+              ],
+            ),
+            ),
                    const SizedBox(height: 100,),
                 ],
               ),
